@@ -5,9 +5,18 @@ permalink: /research/
 author_profile: true
 ---
 
-{% include base_path %}
-
-
 {% for post in site.portfolio %}
-  {% include archive-single.html %}
+  <div style="margin-bottom: 2rem; padding-bottom: 1.25rem; border-bottom: 1px solid #d8d8d8;">
+    <details>
+      <summary style="cursor: pointer;">
+        <h2 style="display: inline;">{{ post.title }}</h2>
+      </summary>
+
+      {% if post.excerpt %}
+        <p><em>{{ post.excerpt }}</em></p>
+      {% endif %}
+
+      {{ post.content }}
+    </details>
+  </div>
 {% endfor %}
