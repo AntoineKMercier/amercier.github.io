@@ -17,12 +17,20 @@
     margin-top: 1em;
   }
 
-  @media screen and (min-width: $sidebar-screen-min-width) {
-    height: auto;
-    overflow: visible;               // Add scrollbar if the sidebar is too long
-    position: fixed;
-    padding-top: $masthead-height;
+   @media screen and (min-width: $sidebar-screen-min-width) and (min-height: 900px) {
+     height: auto;
+     overflow: visible;
+     position: fixed;
+     padding-top: $masthead-height;
+   }
+   @media screen and (max-width: 1200px), screen and (max-height: 900px) {
+    .sidebar {
+    position: static !important;
+    height: auto !important;
+    overflow: visible !important;
+    padding-top: 1em !important;
   }
+}
 
   @include breakpoint($large) {
     @include span(2 of 12);
