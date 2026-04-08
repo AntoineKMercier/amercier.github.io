@@ -15,4 +15,4 @@ I am also involved in a range of interdisciplinary and community-oriented work, 
 
 Outside of philosophy, I enjoy making art, baking, coding, and watching bad movies with my cat, Captain Cat Sparrow.
 
-You can contact me at thcotton [at] uci [dot] edu
+You can contact me at: thcotton [at] uci [dot] edu
