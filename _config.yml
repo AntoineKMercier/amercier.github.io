@@ -26,8 +26,8 @@ author:
   avatar           : "profile.png"
   name             : "Tori Helen Cotton"
   bio              : "Ph.D. student working on AI, feminist epistemology, and computational approaches to scientific language. She/they."
-  location         : "Irvine, CA"
-  employer         : "UC Irvine"
+  location         : "Irvine, California, USA"
+  employer         : "UC Irvine, Logic and Philosophy of Science"
   email            : "thcotton@uci.edu"
 
   # Academic websites
@@ -50,13 +50,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/thcotton"
+  github           : thcotton
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "https://bsky.app/profile/wittgencism.bsky.social" # Replace this with you Bluesky username
+  bluesky          : wittgencism # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
