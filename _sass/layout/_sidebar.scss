@@ -161,16 +161,15 @@
     height: auto;
   }
 
-  img {
+   img {
     max-width: 220px;
     border-radius: 16px;
     object-fit: cover;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-   }
 
     @include breakpoint($large) {
       padding: 5px;
-      border: none
+      border: none;
     }
   }
 }
@@ -182,7 +181,7 @@
   padding-right: 25px;
   line-height: 1;
 
-  @include breakpoint($large) {
+   @include breakpoint($large) {
     display: block;
     width: 100%;
     padding-left: 0;
