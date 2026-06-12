@@ -23,7 +23,7 @@ repository               : "antoinekmercier.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : 
   name             : "Antoine Mercier"
   bio              : "Ph.D. student working in mathematical logic and philosophy of mathematics."
   location         : "Irvine, California, USA"
